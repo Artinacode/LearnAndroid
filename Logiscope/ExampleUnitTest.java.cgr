@@ -1,0 +1,12 @@
+AUDIT CONTROL VERSION 1
+DATE string "2020.04.13 12:48:29"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+MODULE string "D:\AndroidStudioProjects\test1\app\src\test\java\com\esdut\test1\ExampleUnitTest.java"
+CTRL
+FUNCTION "addition_isCorrect()" 302 374
+1 ENTRY 0 "" 14
+2 STMT 1 "" 15
+3 EXIT 0 "addition_isCorrect()" 16
+END FUNCTION
+
+END CTRL

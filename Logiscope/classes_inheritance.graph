@@ -1,0 +1,15 @@
+CQL VIEW
+DATE string "2020.04.21 00:13:21"
+TITLE string "Inheritance Graph C:\Users\mengxing\Documents\My Projects\tet"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+COLUMNS 7
+node1	name	type	module	start	stop	node2
+integer	string	integer	string	integer	integer	integer
+DATA
+566	"com.esdut.test1.BuildConfig"	5	"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	81	394	0
+587	"com.esdut.test1.FirstActivity"	5	"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	335	1921	572
+588	"com.esdut.test1.SecondActivity"	5	"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\SecondActivity.java"	190	761	572
+589	"com.esdut.test1.ThirdActivity"	5	"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\ThirdActivity.java"	103	330	572
+593	"com.esdut.test1.ExampleUnitTest"	5	"D:\AndroidStudioProjects\test1\app\src\test\java\com\esdut\test1\ExampleUnitTest.java"	257	376	0
+605	"com.esdut.test1.ExampleInstrumentedTest"	5	"D:\AndroidStudioProjects\test1\app\src\androidTest\java\com\esdut\test1\ExampleInstrumentedTest.java"	448	744	0
+572	"androidx.appcompat.app.AppCompatActivity"	0	""	0	0	0

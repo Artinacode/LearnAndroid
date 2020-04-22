@@ -1,0 +1,11 @@
+CQL VIEW
+COLUMNS 5
+module	module_id	language	options	toupdate
+string	integer	string	string	integer
+DATA
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	1	"JAVA"	""	1
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	2	"JAVA"	""	1
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\SecondActivity.java"	3	"JAVA"	""	1
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\ThirdActivity.java"	4	"JAVA"	""	1
+"D:\AndroidStudioProjects\test1\app\src\test\java\com\esdut\test1\ExampleUnitTest.java"	5	"JAVA"	""	1
+"D:\AndroidStudioProjects\test1\app\src\androidTest\java\com\esdut\test1\ExampleInstrumentedTest.java"	6	"JAVA"	""	1

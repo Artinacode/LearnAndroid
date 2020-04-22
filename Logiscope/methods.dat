@@ -1,0 +1,14 @@
+CQL VIEW
+DATE string "2020.04.21 00:13:21"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+COLUMNS 26
+module	method	type	start	stop	line	class	methsig	lc_line	lc_comm	lc_stat	lc_dclstat	lc_parse	ic_param	ic_except	ct_nest	ct_decis	ct_loop	ct_bran	ct_exit	ct_node	ct_edge	ct_try	ct_raise	ct_cyclo	ct_degree
+string	string	string	integer	integer	integer	string	string	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer
+DATA
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	"onCreate"	"method"	409	1340	18	"com.esdut.test1.FirstActivity"	"onCreate(Bundle)"	22	0	7	2	6	1	0	0	0	0	0	0	7	6	0	0	1	1
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	"onCreateOptionsMenu"	"method"	1360	1487	42	"com.esdut.test1.FirstActivity"	"onCreateOptionsMenu(Menu)"	4	0	3	0	0	1	0	0	0	0	0	1	3	2	0	0	1	1
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	"onOptionsItemSelected"	"method"	1507	1918	48	"com.esdut.test1.FirstActivity"	"onOptionsItemSelected()"	12	0	7	0	1	1	0	1	1	0	0	1	9	10	0	0	3	3
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\SecondActivity.java"	"onCreate"	"method"	265	759	13	"com.esdut.test1.SecondActivity"	"onCreate(Bundle)"	12	0	5	1	3	1	0	0	0	0	0	0	5	4	0	0	1	1
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\ThirdActivity.java"	"onCreate"	"method"	177	328	10	"com.esdut.test1.ThirdActivity"	"onCreate(Bundle)"	4	0	3	0	0	1	0	0	0	0	0	0	3	2	0	0	1	1
+"D:\AndroidStudioProjects\test1\app\src\test\java\com\esdut\test1\ExampleUnitTest.java"	"addition_isCorrect"	"method"	302	374	14	"com.esdut.test1.ExampleUnitTest"	"addition_isCorrect()"	3	0	2	0	0	0	0	0	0	0	0	0	3	2	0	0	1	1
+"D:\AndroidStudioProjects\test1\app\src\androidTest\java\com\esdut\test1\ExampleInstrumentedTest.java"	"useAppContext"	"method"	501	742	21	"com.esdut.test1.ExampleInstrumentedTest"	"useAppContext()"	5	1	3	1	0	0	0	0	0	0	0	0	3	2	0	0	1	1

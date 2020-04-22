@@ -1,0 +1,13 @@
+CQL VIEW
+DATE string "2020.04.21 00:13:21"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+COLUMNS 43
+module	class	type	start	stop	line	scope	cl_line	cl_comm	cl_stat	cl_dclstat	cl_parse	cl_interf	cl_extend	cl_field	cl_field_final	cl_field_static	cl_field_const	cl_field_nostat	cl_field_priv	cl_field_prot	cl_field_publ	cl_field_pack	cl_meth	cl_meth_static	cl_meth_nostat	cl_meth_abstract	cl_meth_native	cl_meth_priv	cl_meth_prot	cl_meth_publ	cl_meth_pack	cl_subclass	in_depth	in_derived	in_dderived	in_inherits	in_dinherits	cu_level	cu_cdused	cu_cused	cu_cdusers	cu_cusers
+string	string	string	integer	integer	integer	string	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer	integer
+DATA
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	"BuildConfig"	"class"	81	394	6	"com.esdut.test1"	7	0	0	5	0	0	0	5	5	0	5	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	2	0	0
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	"FirstActivity"	"class"	335	1921	15	"com.esdut.test1"	47	0	17	3	13	0	1	0	0	0	0	0	0	0	0	0	3	0	3	0	0	0	1	2	0	0	1	0	0	1	1	1	9	9	1	1
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\SecondActivity.java"	"SecondActivity"	"class"	190	761	10	"com.esdut.test1"	16	0	5	1	5	0	1	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	0	0	0	1	0	0	1	1	2	7	10	0	0
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\ThirdActivity.java"	"ThirdActivity"	"class"	103	330	7	"com.esdut.test1"	8	0	3	1	2	0	1	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	0	0	0	1	0	0	1	1	1	2	2	0	0
+"D:\AndroidStudioProjects\test1\app\src\test\java\com\esdut\test1\ExampleUnitTest.java"	"ExampleUnitTest"	"class"	257	376	12	"com.esdut.test1"	6	5	2	1	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"D:\AndroidStudioProjects\test1\app\src\androidTest\java\com\esdut\test1\ExampleInstrumentedTest.java"	"ExampleInstrumentedTest"	"class"	448	744	19	"com.esdut.test1"	8	1	3	1	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	2	2	0	0

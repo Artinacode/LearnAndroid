@@ -1,0 +1,14 @@
+AUDIT CONTROL VERSION 1
+DATE string "2020.04.20 16:16:32"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+MODULE string "D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\SecondActivity.java"
+CTRL
+FUNCTION "onCreate(Bundle)" 265 759
+1 ENTRY 0 "" 13
+2 STMT 3 "" 14
+3 ERROR 0 "button2." 17
+4 STMT 1 "" 17
+5 EXIT 0 "onCreate(Bundle)" 24
+END FUNCTION
+
+END CTRL

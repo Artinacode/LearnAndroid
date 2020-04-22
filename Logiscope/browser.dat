@@ -1,0 +1,31 @@
+CQL VIEW
+DATE string "2020.04.21 00:13:21"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+COLUMNS 7
+module	start	stop	line	name	type	scope	
+string	integer	integer	integer	string	string	string	
+DATA
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	55	79	4	"test1"	"package"	"com.esdut"
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	81	394	6	"BuildConfig"	"class-public"	"com.esdut.test1"
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	116	181	7	"DEBUG"	"const"	"com.esdut.test1.BuildConfig"
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	184	246	8	"APPLICATION_ID"	"const"	"com.esdut.test1.BuildConfig"
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	249	297	9	"BUILD_TYPE"	"const"	"com.esdut.test1.BuildConfig"
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	300	341	10	"VERSION_CODE"	"const"	"com.esdut.test1.BuildConfig"
+"D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java"	344	392	11	"VERSION_NAME"	"const"	"com.esdut.test1.BuildConfig"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	0	24	1	"test1"	"package"	"com.esdut"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	335	1921	15	"FirstActivity"	"class-public"	"com.esdut.test1"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	409	1340	18	"onCreate(Bundle)"	"method-protected"	"com.esdut.test1.FirstActivity"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	1360	1487	42	"onCreateOptionsMenu(Menu)"	"method-public"	"com.esdut.test1.FirstActivity"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"	1507	1918	48	"onOptionsItemSelected()"	"method-public"	"com.esdut.test1.FirstActivity"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\SecondActivity.java"	0	24	1	"test1"	"package"	"com.esdut"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\SecondActivity.java"	190	761	10	"SecondActivity"	"class-public"	"com.esdut.test1"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\SecondActivity.java"	265	759	13	"onCreate(Bundle)"	"method-protected"	"com.esdut.test1.SecondActivity"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\ThirdActivity.java"	0	24	1	"test1"	"package"	"com.esdut"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\ThirdActivity.java"	103	330	7	"ThirdActivity"	"class-public"	"com.esdut.test1"
+"D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\ThirdActivity.java"	177	328	10	"onCreate(Bundle)"	"method-protected"	"com.esdut.test1.ThirdActivity"
+"D:\AndroidStudioProjects\test1\app\src\test\java\com\esdut\test1\ExampleUnitTest.java"	0	24	1	"test1"	"package"	"com.esdut"
+"D:\AndroidStudioProjects\test1\app\src\test\java\com\esdut\test1\ExampleUnitTest.java"	257	376	12	"ExampleUnitTest"	"class-public"	"com.esdut.test1"
+"D:\AndroidStudioProjects\test1\app\src\test\java\com\esdut\test1\ExampleUnitTest.java"	302	374	14	"addition_isCorrect()"	"method-public"	"com.esdut.test1.ExampleUnitTest"
+"D:\AndroidStudioProjects\test1\app\src\androidTest\java\com\esdut\test1\ExampleInstrumentedTest.java"	0	24	1	"test1"	"package"	"com.esdut"
+"D:\AndroidStudioProjects\test1\app\src\androidTest\java\com\esdut\test1\ExampleInstrumentedTest.java"	448	744	19	"ExampleInstrumentedTest"	"class-public"	"com.esdut.test1"
+"D:\AndroidStudioProjects\test1\app\src\androidTest\java\com\esdut\test1\ExampleInstrumentedTest.java"	501	742	21	"useAppContext()"	"method-public"	"com.esdut.test1.ExampleInstrumentedTest"

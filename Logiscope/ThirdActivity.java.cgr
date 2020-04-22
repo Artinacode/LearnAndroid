@@ -1,0 +1,12 @@
+AUDIT CONTROL VERSION 1
+DATE string "2020.04.20 16:47:27"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+MODULE string "D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\ThirdActivity.java"
+CTRL
+FUNCTION "onCreate(Bundle)" 177 328
+1 ENTRY 0 "" 10
+2 STMT 2 "" 11
+3 EXIT 0 "onCreate(Bundle)" 13
+END FUNCTION
+
+END CTRL

@@ -1,0 +1,12 @@
+AUDIT CONTROL VERSION 1
+DATE string "2020.04.13 12:48:29"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+MODULE string "D:\AndroidStudioProjects\test1\app\src\androidTest\java\com\esdut\test1\ExampleInstrumentedTest.java"
+CTRL
+FUNCTION "useAppContext()" 501 742
+1 ENTRY 0 "" 21
+2 STMT 2 "" 23
+3 EXIT 0 "useAppContext()" 25
+END FUNCTION
+
+END CTRL

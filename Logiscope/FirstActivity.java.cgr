@@ -1,0 +1,36 @@
+AUDIT CONTROL VERSION 1
+DATE string "2020.04.20 16:43:05"
+APPLICATION string "C:\Users\mengxing\Documents\My Projects\tet"
+MODULE string "D:\AndroidStudioProjects\test1\app\src\main\java\com\esdut\test1\FirstActivity.java"
+CTRL
+FUNCTION "onCreate(Bundle)" 409 1340
+1 ENTRY 0 "" 18
+2 STMT 3 "" 19
+3 ERROR 0 "button1." 22
+4 STMT 2 "" 22
+5 ERROR 0 "button2." 31
+6 STMT 1 "" 31
+7 EXIT 0 "onCreate(Bundle)" 39
+END FUNCTION
+
+FUNCTION "onCreateOptionsMenu(Menu)" 1360 1487
+1 ENTRY 0 "" 42
+2 STMT 1 "" 43
+3 EXIT 0 "return true;" 44
+END FUNCTION
+
+FUNCTION "onOptionsItemSelected()" 1507 1918
+1 ENTRY 0 "" 48
+2 SWITCH 0 "switch (item.getItemId())" 49
+3 CASE 1 "case R.id.add_item:" 50
+4 STMT 1 "" 51
+5 BREAK 10 "break;" 52
+6 CASE 2 "case R.id.remove_item:" 53
+7 STMT 1 "" 54
+8 BREAK 10 "break;" 55
+9 CASE 3 "default:" 56
+10 ENDSWITCH 0 "" 57
+11 EXIT 0 "return true;" 58
+END FUNCTION
+
+END CTRL

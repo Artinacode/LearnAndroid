@@ -1,0 +1,128 @@
+FORM {JAVA 1}
+ATN com
+OP {1 } identifier {4 4 63 66 8 11}
+ATN esdut
+OP {3 } identifier {4 4 67 72 12 17}
+OP {2 4 } scope {4 4 63 72 8 17}
+ATN test1
+OP {6 } identifier {4 4 73 78 18 23}
+OP {5 7 } qualified_id {4 4 63 78 8 23}
+OP {8 } package_stmt {4 4 55 79 0 24}
+OP {} import_stmt_list {}
+ATV
+OP {11 } public {6 6 81 87 0 6}
+ATV
+OP {13 } final {6 6 88 93 7 12}
+OP {12 14 } modifier_list {6 6 81 93 0 12}
+ATN BuildConfig
+OP {16 } identifier {6 6 100 111 19 30}
+OP {15 17 } class_head {6 6 81 111 0 30}
+ATV
+OP {19 } none {6 6 111 111 30 30}
+ATV
+OP {21 } none {6 6 111 111 30 30}
+OP {20 22 } class_ext {6 6 111 111 30 30}
+ATV
+OP {24 } public {7 7 116 122 2 8}
+ATV
+OP {26 } static {7 7 123 129 9 15}
+ATV
+OP {28 } final {7 7 130 135 16 21}
+OP {25 27 29 } modifier_list {7 7 116 135 2 21}
+ATV
+OP {31 } boolean {7 7 136 143 22 29}
+ATN DEBUG
+OP {33 } identifier {7 7 144 149 30 35}
+ATV
+OP {35 } none {7 7 149 149 35 35}
+ATN Boolean
+OP {37 } identifier {7 7 152 159 38 45}
+OP {38 } scope {7 7 152 159 38 45}
+ATN parseBoolean
+OP {40 } identifier {7 7 160 172 46 58}
+OP {39 41 } qualified_id {7 7 152 172 38 58}
+ATS {"true"}
+OP {43 } string {7 7 173 179 59 65}
+OP {44 } expr_list {7 7 173 179 59 65}
+OP {42 45 } call {7 7 152 180 38 66}
+OP {34 36 46 } var_dcltr_affinit {7 7 144 180 30 66}
+OP {47 } var_dcltr_list {7 7 144 180 30 66}
+OP {30 32 48 } variable_decl {7 7 116 181 2 67}
+ATV
+OP {50 } public {8 8 184 190 2 8}
+ATV
+OP {52 } static {8 8 191 197 9 15}
+ATV
+OP {54 } final {8 8 198 203 16 21}
+OP {51 53 55 } modifier_list {8 8 184 203 2 21}
+ATN String
+OP {57 } identifier {8 8 204 210 22 28}
+ATN APPLICATION_ID
+OP {59 } identifier {8 8 211 225 29 43}
+ATV
+OP {61 } none {8 8 225 225 43 43}
+ATS {"com.esdut.test1"}
+OP {63 } string {8 8 228 245 46 63}
+OP {60 62 64 } var_dcltr_affinit {8 8 211 245 29 63}
+OP {65 } var_dcltr_list {8 8 211 245 29 63}
+OP {56 58 66 } variable_decl {8 8 184 246 2 64}
+ATV
+OP {68 } public {9 9 249 255 2 8}
+ATV
+OP {70 } static {9 9 256 262 9 15}
+ATV
+OP {72 } final {9 9 263 268 16 21}
+OP {69 71 73 } modifier_list {9 9 249 268 2 21}
+ATN String
+OP {75 } identifier {9 9 269 275 22 28}
+ATN BUILD_TYPE
+OP {77 } identifier {9 9 276 286 29 39}
+ATV
+OP {79 } none {9 9 286 286 39 39}
+ATS {"debug"}
+OP {81 } string {9 9 289 296 42 49}
+OP {78 80 82 } var_dcltr_affinit {9 9 276 296 29 49}
+OP {83 } var_dcltr_list {9 9 276 296 29 49}
+OP {74 76 84 } variable_decl {9 9 249 297 2 50}
+ATV
+OP {86 } public {10 10 300 306 2 8}
+ATV
+OP {88 } static {10 10 307 313 9 15}
+ATV
+OP {90 } final {10 10 314 319 16 21}
+OP {87 89 91 } modifier_list {10 10 300 319 2 21}
+ATV
+OP {93 } int {10 10 320 323 22 25}
+ATN VERSION_CODE
+OP {95 } identifier {10 10 324 336 26 38}
+ATV
+OP {97 } none {10 10 336 336 38 38}
+ATS 1
+OP {99 } integer {10 10 339 340 41 42}
+OP {96 98 100 } var_dcltr_affinit {10 10 324 340 26 42}
+OP {101 } var_dcltr_list {10 10 324 340 26 42}
+OP {92 94 102 } variable_decl {10 10 300 341 2 43}
+ATV
+OP {104 } public {11 11 344 350 2 8}
+ATV
+OP {106 } static {11 11 351 357 9 15}
+ATV
+OP {108 } final {11 11 358 363 16 21}
+OP {105 107 109 } modifier_list {11 11 344 363 2 21}
+ATN String
+OP {111 } identifier {11 11 364 370 22 28}
+ATN VERSION_NAME
+OP {113 } identifier {11 11 371 383 29 41}
+ATV
+OP {115 } none {11 11 383 383 41 41}
+ATS {"1.0"}
+OP {117 } string {11 11 386 391 44 49}
+OP {114 116 118 } var_dcltr_affinit {11 11 371 391 29 49}
+OP {119 } var_dcltr_list {11 11 371 391 29 49}
+OP {110 112 120 } variable_decl {11 11 344 392 2 50}
+OP {49 67 85 103 121 } field_decl_list {6 12 112 394 31 1}
+OP {18 23 122 } class_decl {6 12 81 394 0 1}
+OP {123 } type_decl_list {6 12 81 394 0 1}
+OP {9 10 124 } comp_unit {4 12 55 395 0 0} {prefix comment_s {comment {/**
+ * Automatically generated file. DO NOT MODIFY
+ */} 0 }} 

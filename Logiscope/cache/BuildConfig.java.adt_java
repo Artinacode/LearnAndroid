@@ -1,0 +1,4 @@
+incr::DepCommandLine {audit_java_analyze} {-adt} {-ctrl} {-a} {C:\Users\mengxing\Documents\My Projects\tet} {-d} {D:\AndroidStudioProjects\test1\Logiscope} {-l} {D:\AndroidStudioProjects\test1\Logiscope\logiscope.tab}
+incr::DepMainInput {D:\AndroidStudioProjects\test1\app\build\generated\source\buildConfig\debug\com\esdut\test1\BuildConfig.java}
+incr::DepInput {C:\Program Files (x86)\Telelogic\Logiscope\data\audit_java\Audit.cfg}
+incr::DepOutput {D:\AndroidStudioProjects\test1\Logiscope\cache\BuildConfig.java.adt_java.dmp}

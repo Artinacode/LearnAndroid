@@ -1,0 +1,155 @@
+FORM {JAVA 1}
+ATN com
+OP {1 } identifier {1 1 8 11 8 11}
+ATN esdut
+OP {3 } identifier {1 1 12 17 12 17}
+OP {2 4 } scope {1 1 8 17 8 17}
+ATN test1
+OP {6 } identifier {1 1 18 23 18 23}
+OP {5 7 } qualified_id {1 1 8 23 8 23}
+OP {8 } package_stmt {1 1 0 24 0 24}
+ATN android
+OP {10 } identifier {3 3 33 40 7 14}
+ATN content
+OP {12 } identifier {3 3 41 48 15 22}
+OP {11 13 } scope {3 3 33 48 7 22}
+ATN Context
+OP {15 } identifier {3 3 49 56 23 30}
+OP {14 16 } qualified_id {3 3 33 56 7 30}
+OP {17 } import_stmt {3 3 26 57 0 31}
+ATN androidx
+OP {19 } identifier {5 5 66 74 7 15}
+ATN test
+OP {21 } identifier {5 5 75 79 16 20}
+ATN platform
+OP {23 } identifier {5 5 80 88 21 29}
+ATN app
+OP {25 } identifier {5 5 89 92 30 33}
+OP {20 22 24 26 } scope {5 5 66 92 7 33}
+ATN InstrumentationRegistry
+OP {28 } identifier {5 5 93 116 34 57}
+OP {27 29 } qualified_id {5 5 66 116 7 57}
+OP {30 } import_stmt {5 5 59 117 0 58}
+ATN androidx
+OP {32 } identifier {6 6 125 133 7 15}
+ATN test
+OP {34 } identifier {6 6 134 138 16 20}
+ATN ext
+OP {36 } identifier {6 6 139 142 21 24}
+ATN junit
+OP {38 } identifier {6 6 143 148 25 30}
+ATN runners
+OP {40 } identifier {6 6 149 156 31 38}
+OP {33 35 37 39 41 } scope {6 6 125 156 7 38}
+ATN AndroidJUnit4
+OP {43 } identifier {6 6 157 170 39 52}
+OP {42 44 } qualified_id {6 6 125 170 7 52}
+OP {45 } import_stmt {6 6 118 171 0 53}
+ATN org
+OP {47 } identifier {8 8 180 183 7 10}
+ATN junit
+OP {49 } identifier {8 8 184 189 11 16}
+OP {48 50 } scope {8 8 180 189 7 16}
+ATN Test
+OP {52 } identifier {8 8 190 194 17 21}
+OP {51 53 } qualified_id {8 8 180 194 7 21}
+OP {54 } import_stmt {8 8 173 195 0 22}
+ATN org
+OP {56 } identifier {9 9 203 206 7 10}
+ATN junit
+OP {58 } identifier {9 9 207 212 11 16}
+ATN runner
+OP {60 } identifier {9 9 213 219 17 23}
+OP {57 59 61 } scope {9 9 203 219 7 23}
+ATN RunWith
+OP {63 } identifier {9 9 220 227 24 31}
+OP {62 64 } qualified_id {9 9 203 227 7 31}
+OP {65 } import_stmt {9 9 196 228 0 32}
+ATS {import static org.junit.Assert.*;}
+OP {67 } errortree {11 11 230 263 0 33}
+ATS {
+
+/**
+ * Instrumented test, which will execute on an Android device.
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+@RunWith(AndroidJUnit4.}
+OP {69 } errortree {11 18 263 441 33 23}
+OP {18 31 46 55 66 68 70 } import_stmt_list {3 18 26 441 0 23}
+ATS {class)
+}
+OP {72 } errortree {18 19 441 448 23 0}
+ATV
+OP {74 } public {19 19 448 454 0 6}
+OP {75 } modifier_list {19 19 448 454 0 6}
+ATN ExampleInstrumentedTest
+OP {77 } identifier {19 19 461 484 13 36}
+OP {76 78 } class_head {19 19 448 484 0 36}
+ATV
+OP {80 } none {19 19 484 484 36 36}
+ATV
+OP {82 } none {19 19 484 484 36 36}
+OP {81 83 } class_ext {19 19 484 484 36 36}
+ATS {@Test
+    }
+OP {85 } errortree {20 21 491 501 4 4}
+ATV
+OP {87 } public {21 21 501 507 4 10}
+OP {88 } modifier_list {21 21 501 507 4 10}
+ATV
+OP {90 } void_type {21 21 508 512 11 15}
+ATN useAppContext
+OP {92 } identifier {21 21 513 526 16 29}
+OP {} parameter_list {21 21 527 527 30 30}
+ATV
+OP {95 } none {}
+OP {93 94 96 } method_dcltr {21 21 513 528 16 31}
+ATV
+OP {98 } none {21 21 528 528 31 31}
+OP {} modifier_list {}
+ATN Context
+OP {101 } identifier {23 23 581 588 8 15}
+ATN appContext
+OP {103 } identifier {23 23 589 599 16 26}
+ATV
+OP {105 } none {23 23 599 599 26 26}
+ATN InstrumentationRegistry
+OP {107 } identifier {23 23 602 625 29 52}
+OP {108 } scope {23 23 602 625 29 52}
+ATN getInstrumentation
+OP {110 } identifier {23 23 626 644 53 71}
+OP {109 111 } qualified_id {23 23 602 644 29 71}
+OP {} expr_list {23 23 645 645 72 72}
+OP {112 113 } call {23 23 602 646 29 73}
+ATN getTargetContext
+OP {115 } identifier {23 23 647 663 74 90}
+OP {114 116 } field_access {23 23 602 663 29 90}
+OP {} expr_list {23 23 664 664 91 91}
+OP {117 118 } call {23 23 602 665 29 92}
+OP {104 106 119 } var_dcltr_affinit {23 23 589 665 16 92}
+OP {120 } var_dcltr_list {23 23 589 665 16 92}
+OP {100 102 121 } variable_decl {23 23 581 666 8 93}
+ATN assertEquals
+OP {123 } identifier {24 24 675 687 8 20}
+ATS {"com.esdut.test1"}
+OP {125 } string {24 24 688 705 21 38}
+ATN appContext
+OP {127 } identifier {24 24 707 717 40 50}
+OP {128 } scope {24 24 707 717 40 50}
+ATN getPackageName
+OP {130 } identifier {24 24 718 732 51 65}
+OP {129 131 } qualified_id {24 24 707 732 40 65}
+OP {} expr_list {24 24 733 733 66 66}
+OP {132 133 } call {24 24 707 734 40 67}
+OP {126 134 } expr_list {24 24 688 734 21 67}
+OP {124 135 } call {24 24 675 735 8 68}
+OP {136 } expr_stmt {24 24 675 736 8 69}
+OP {122 137 } stmts {23 24 581 736 8 69} {prefix comment_s {comment {// Context of the app under test.
+} 0 }} 
+OP {138 } compound {21 25 529 742 32 5}
+OP {89 91 97 99 139 } method_decl {21 25 501 742 4 5}
+OP {86 140 } field_decl_list {19 26 485 744 37 1}
+OP {79 84 141 } class_decl {19 26 448 744 0 1}
+OP {73 142 } type_decl_list {18 26 441 744 23 1}
+OP {9 71 143 } comp_unit {1 26 0 744 0 1}
