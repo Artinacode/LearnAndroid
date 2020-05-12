@@ -6,10 +6,26 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="宿舍小程序"
+        android:label="安卓学习程序"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App">
+        <activity android:name=".P5Activity">
+            <intent-filter>
+                <action android:name="com.esdut.test1.Action05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".TextviewActivity">
+            <intent-filter>
+                <action android:name="com.esdut.test1.Action03" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
         <activity android:name=".ThirdActivity">
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
@@ -30,6 +46,7 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.esdut.test1.MY_CATEGORY" />
             </intent-filter>
         </activity>
     </application>
